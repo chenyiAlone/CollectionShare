@@ -58,9 +58,9 @@ public interface ListenCall{
         @Override
         public void onEvent(int eventType, int arg1, int arg2, Bundle obj) {}
     };
-  ```
-    再通过设置持有的接口的引用来修改回调监听方法时的后续动作，用其与语音合成动作连接实现循环
-  ```java
+```
+##### 再通过设置持有的接口的引用来修改回调监听方法时的后续动作，用其与语音合成动作连接实现循环
+```java
   
     //默认的合成回调对象
     Speaker.SpeakCall defaultspeakCall = new Speaker.SpeakCall(){
@@ -127,5 +127,5 @@ public interface ListenCall{
         }
 
     };
-    ```
->>具体内容详见源码
+```
+#####  我解决问题的成写在了微博中，欢迎参考 [我的CSDN](http://blog.csdn.net/chenyiAlone "悬停显示")
